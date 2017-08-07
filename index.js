@@ -1,7 +1,7 @@
 module.exports = {
-    "parser": "babel-eslint",
     "extends": ["@pod-point/eslint-config-podpoint-base", "eslint-config-airbnb/rules/react", "eslint-config-airbnb/rules/react-a11y"],
-    "env":{
+    "parser": "babel-eslint",
+    "env": {
         "browser": true,
         "node": true,
         "jest": true,
