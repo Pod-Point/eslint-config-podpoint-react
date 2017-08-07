@@ -1,0 +1,17 @@
+{
+  "name": "@pod-point/eslint-config-podpoint-react",
+  "version": "0.1.0",
+  "description": "Global ESLint config for React JS projects",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pod-Point/eslint-config-podpoint-react.git"
+  },
+  "author": "POD Point Software Team <software@pod-point.com>",
+  "peerDependencies": {
+    "@pod-point/eslint-config-podpoint-base": "^0.1.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
