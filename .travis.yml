@@ -5,6 +5,7 @@ node_js:
 deploy:
   - provider: npm
     email: software@pod-point.com
+    skip_cleanup: true
     api_key:
       secure: tRHajU1NuqW87M4vUHSVzZWIt3OqAU3N8VK3ZRwoMs8JlATYsbMfZZrymzTNqczSDPEBBmxboYDCO60SYF6Gx0xzwQ8mDrOJ3ywmR2O7tIkrmj909JoDlME1xumTp2MwiE28hZQoY5HbcNZNstjB4pllakNKotLZ0vW8B6fKPVYyedjxqyzfqt2774+R0ZmcJ978G4W9LEnwsFw6w39AB8YnO9AeS75ErlIN/8VpxUC2038O813EGMBeiB3rroQhQRypB2oXfHSt3NVZ6czPjZn41J7ZfxiPG+cVlTVvPGL4ExdefVFCBYx1+CRO2Hm6n6Z3sfUhu+l6D+kEGwtqQtcTYhSr7Mj9d30GnGpyzBKE7QNhH9OtsfEIVPJIaO0JNziNjM8iIvs2DXwPRr3ilSonXsYssp3GfLgvrmZglvaM+aEfgnpluChIN3Ched/i9KyFzd4SMF9TMTm2lc8/TQZDeuJ49+TcVGSg6ZmFHdYS8rl4h/ZnrhG9Mbb2wGZSaTUdH5JkZIG3P9QbCeU1w+7ITSSrUJRxz9wzyinbDUHL5URUwUq8egJk+J6ZqWl3DssOzfqU6aMDBUNwRP7CopYdRoGKXphmWhl06/Z/4hGLayf0gAF3C5QDSeFhLDtlhn8pSCn146MH7GCM9bhI4qSiDQs0bLZarKjgUhsrQ2Y=
     on:
