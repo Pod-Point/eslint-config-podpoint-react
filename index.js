@@ -9,7 +9,12 @@ module.exports = {
     "rules": {
         "class-methods-use-this": "warn",
         "import/order": "error",
-        "object-curly-newline": ["error", {"ImportDeclaration": "never"}],
+        "object-curly-newline": ["error", {
+            "ObjectExpression": { "multiline": true, "minProperties": 2, "consistent": true },
+            "ObjectPattern": { "multiline": true, "minProperties": 2, "consistent": true },
+            "ImportDeclaration": { "multiline": false, "consistent": true },
+            "ExportDeclaration": { "multiline": false, "consistent": true }
+        }],
         "react/jsx-curly-spacing": ["error", {"when": "always", "children": true}],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
